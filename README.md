@@ -46,6 +46,10 @@ Here's a walkthrough of implemented user stories:
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
+## Inspiration 
+
+This app is heavily inspired by [Suz Hinton](https://twitter.com/noopkat) and her [Personal Ultimate Reassurance Response (P.U.R.R.)](http://meow.noopkat.com/p-u-r-r-personal-ultimate-reassurance-response/) and by a team member's personal experiences.  
+
 ## License
 
     Copyright [2016] [Soother]
