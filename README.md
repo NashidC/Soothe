@@ -1,7 +1,7 @@
 # Soothe
 **Soothe** iOS app that helps take preventative measures by monitoring heart rate.
 
-## Basic Idea 
+## Basic Idea :)
 
 Anxiety and panic attacks can happen anytime and anywhere for absolutely any reason. These attacks can range in intensity and symptoms. Some symptoms include hyperventilation, trembling, sweating, nausea, heart palpitations, etc. Often makes getting through certain situations or even through the day very difficult for sufferers. 
 
