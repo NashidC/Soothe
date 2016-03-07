@@ -15,7 +15,6 @@ Although this app wants to help people suffering with anxiety and panic disorder
 
 The following **required** functionality is completed:
 
-- [ ] User can specify *trusted contacts* and GIF categories in a settings form using [Eureka](https://github.com/xmartlabs/Eureka) or a [custom form](http://guides.codepath.com/ios/Form-Input).
 - [ ] User's preferences in the settings form should be [persisted](http://guides.codepath.com/ios/Using-NSUserDefaults) across app restarts. 
 - [ ] User can view the first 20 GIFs (from categories selected in the setting form) using the [Giphy API](https://github.com/Giphy/GiphyAPI). 
 - [ ] User should be able to load more GIFs once they reach the bottom of the feed using [infinite loading](http://guides.codepath.com/ios/Table-View-Guide#adding-infinite-scroll).
@@ -24,6 +23,7 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
+- [ ] User can specify *trusted contacts* and GIF categories in a settings form using [Eureka](https://github.com/xmartlabs/Eureka) or a [custom form](http://guides.codepath.com/ios/Form-Input).
 - [ ] Apple watch is used to determine [pulse](http://stackoverflow.com/a/30961883) hikes.
 - [ ] App should be able to respond to a pulse hike (retrieved from Apple Watch) by sending a text message to "trusted contacts".
 - [ ] User can authenticate with Google+. 
@@ -37,6 +37,7 @@ The following **additional** features are implemented:
 - [ ] User can play small games built into the app. 
 - [ ] Adding a new *trusted contact* should alert them that they were added as a *trusted contact* and ask for permission to send texts.
 - [ ] Figure out other methods of contacting a *trusted contact* besides text (ie. email). 
+- [ ] Learning users resting and active heart rates to better determine what heart rate can be considered "a spike". 
 
 ## Video Walkthrough
 
