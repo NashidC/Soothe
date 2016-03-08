@@ -15,27 +15,30 @@ Although this app wants to help people suffering with anxiety and panic disorder
 
 The following **required** functionality is completed:
 
-- [ ] User's preferences in the settings form should be [persisted](http://guides.codepath.com/ios/Using-NSUserDefaults) across app restarts. 
 - [ ] User can view the first 20 GIFs (from categories selected in the setting form) using the [Giphy API](https://github.com/Giphy/GiphyAPI). 
 - [ ] User should be able to load more GIFs once they reach the bottom of the feed using [infinite loading](http://guides.codepath.com/ios/Table-View-Guide#adding-infinite-scroll).
-- [ ] App can determine [users's location](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/LocationAwarenessPG/CoreLocation/CoreLocation.html). 
-- [ ] App can send a text message containing the user's location to *trusted contacts* using [MFMessageComposeViewController](https://developer.apple.com/library/ios/documentation/MessageUI/Reference/MFMessageComposeViewController_class/index.html).
+- [ ] App can determine [users's location](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/LocationAwarenessPG/CoreLocation/CoreLocation.html) if location is on. 
+- [ ] User can send a text message asking a *trusted contacts* permission to sign them up for texts using [MFMessageComposeViewController](https://developer.apple.com/library/ios/documentation/MessageUI/Reference/MFMessageComposeViewController_class/index.html).
+- [ ] User can specify *trusted contacts* and GIF categories in a settings form using [Eureka](https://github.com/xmartlabs/Eureka) or a [custom form](http://guides.codepath.com/ios/Form-Input).
 
 The following **optional** features are implemented:
 
-- [ ] User can specify *trusted contacts* and GIF categories in a settings form using [Eureka](https://github.com/xmartlabs/Eureka) or a [custom form](http://guides.codepath.com/ios/Form-Input).
-- [ ] Apple watch is used to determine [pulse](http://stackoverflow.com/a/30961883) hikes.
-- [ ] App should be able to respond to a pulse hike (retrieved from Apple Watch) by sending a text message to "trusted contacts".
+- [ ] User's preferences in the settings form should be [persisted](http://guides.codepath.com/ios/Using-NSUserDefaults) across app restarts. 
+- [ ] An apple watch is used to determine [pulse](http://stackoverflow.com/a/30961883) hikes.
+- [ ] The iPhone app should be able to respond to a pulse hike (retrieved from Apple Watch) by sending a text message to "trusted contacts" using the [Twilio](https://www.twilio.com).
+- [ ] The iPhone app should additionally send a PUSH notification to the user in the above case regarding "Trending Media".
 - [ ] User can authenticate with Google+. 
-- [ ] User can view a feed of videos from their subscriptions using the [Youtube API](https://developers.google.com/youtube/v3/guides/ios_youtube_helper).
-- [ ] User can specify what sort of media they would like to view in their stream (ie. GIFs, Youtube videos, etc).
 
 The following **additional** features are implemented:
 
+- [ ] User can view a stream of videos from their subscriptions using the [Youtube API](https://developers.google.com/youtube/v3/guides/ios_youtube_helper).
+- [ ] User can specify what sort of media they would like to view in their stream (ie. GIFs, Youtube videos, etc).
 - [ ] User can turn the pulse checker and the text messaging feature on and off in the settings. 
 - [ ] User should be able to view media regardless of Apple Watch connectivity.
 - [ ] User can play small games built into the app. 
-- [ ] Adding a new *trusted contact* should alert them that they were added as a *trusted contact* and ask for permission to send texts.
+
+The following **additional-additional** features are implemented:
+
 - [ ] Figure out other methods of contacting a *trusted contact* besides text (ie. email). 
 - [ ] Learning users resting and active heart rates to better determine what heart rate can be considered "a spike". 
 
