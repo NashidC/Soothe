@@ -1,5 +1,5 @@
 # Soothe
-**Soothe** iOS app that helps take preventative measures by monitoring heart rate.
+**Soothe** is an iOS app that helps take preventative measures by monitoring heart rate.
 
 ## Basic Idea :)
 
