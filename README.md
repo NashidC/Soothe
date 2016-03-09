@@ -24,20 +24,20 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 - [ ] User's preferences in the settings form should be [persisted](http://guides.codepath.com/ios/Using-NSUserDefaults) across app restarts. 
+- [ ] User can authenticate with Google+. 
+- [ ] User can view a stream of videos from their subscriptions using the [Youtube API](https://developers.google.com/youtube/v3/guides/ios_youtube_helper).
+- [ ] User can specify what sort of media they would like to view in their stream (ie. GIFs, Youtube videos, etc).
+- [ ] User should be able to view media regardless of Apple Watch connectivity.
+
+The following **additional** features are implemented if time permits:
+
 - [ ] An apple watch is used to determine [pulse](http://stackoverflow.com/a/30961883) hikes.
 - [ ] The iPhone app should be able to respond to a pulse hike (retrieved from Apple Watch) by sending a text message to "trusted contacts" using the [Twilio](https://www.twilio.com).
 - [ ] The iPhone app should additionally send a PUSH notification to the user in the above case regarding "Trending Media".
-- [ ] User can authenticate with Google+. 
-
-The following **additional** features are implemented:
-
-- [ ] User can view a stream of videos from their subscriptions using the [Youtube API](https://developers.google.com/youtube/v3/guides/ios_youtube_helper).
-- [ ] User can specify what sort of media they would like to view in their stream (ie. GIFs, Youtube videos, etc).
 - [ ] User can turn the pulse checker and the text messaging feature on and off in the settings. 
-- [ ] User should be able to view media regardless of Apple Watch connectivity.
 - [ ] User can play small games built into the app. 
 
-The following **additional-additional** features are implemented:
+The following **additional-additional** features are implemented if time permits:
 
 - [ ] Figure out other methods of contacting a *trusted contact* besides text (ie. email). 
 - [ ] Learning users resting and active heart rates to better determine what heart rate can be considered "a spike". 
@@ -50,9 +50,17 @@ Here's a walkthrough of implemented user stories:
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
+## Development
+
+This project is currently __not__ open to contributions from non-members as it is a final project for [Codepath University](http://www.codepathuniversity.com). 
+
+For members of Soother; you will need to fork this repo and clone your fork to your machine. If you are using Github Desktop please follow [these](https://guides.github.com/activities/forking/) instructions to get started, add a smiley to the README.md and send a pull request to this repo. 
+
+Once we start working on the codebase you should __always be sure to pull/sync from this repository (master) before you start working__. You can find instructions on doing this [here](https://help.github.com/desktop/guides/contributing/syncing-your-branch/). 
+
 ## Inspiration 
 
-This app is heavily inspired by [Suz Hinton](https://twitter.com/noopkat) and her [Personal Ultimate Reassurance Response (P.U.R.R.)](http://meow.noopkat.com/p-u-r-r-personal-ultimate-reassurance-response/) and by a team member's personal experiences.  
+This app is heavily inspired by [Suz Hinton](https://twitter.com/noopkat) and her [Personal Ultimate Reassurance Response (P.U.R.R.)](http://meow.noopkat.com/p-u-r-r-personal-ultimate-reassurance-response/) and by a team member's personal experiences. 
 
 ## License
 
