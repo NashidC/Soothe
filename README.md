@@ -17,7 +17,7 @@ The following **required** functionality is completed:
 
 - [ ] User can view the first 20 GIFs (from categories selected in the setting form) using the [Giphy API](https://github.com/Giphy/GiphyAPI). 
 - [ ] User should be able to load more GIFs once they reach the bottom of the feed using [infinite loading](http://guides.codepath.com/ios/Table-View-Guide#adding-infinite-scroll).
-- [ ] App can determine [users's location](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/LocationAwarenessPG/CoreLocation/CoreLocation.html) if location is on. 
+- [ ] App can send push notifications regarding trending media periodically. 
 - [ ] User can send a text message asking a *trusted contacts* permission to sign them up for texts using [MFMessageComposeViewController](https://developer.apple.com/library/ios/documentation/MessageUI/Reference/MFMessageComposeViewController_class/index.html).
 - [ ] User can specify *trusted contacts* and GIF categories in a settings form using [Eureka](https://github.com/xmartlabs/Eureka) or a [custom form](http://guides.codepath.com/ios/Form-Input).
 
@@ -31,6 +31,7 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented if time permits:
 
+- [ ] App can determine [users's location](https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/LocationAwarenessPG/CoreLocation/CoreLocation.html) if location is on. 
 - [ ] An apple watch is used to determine [pulse](http://stackoverflow.com/a/30961883) hikes.
 - [ ] The iPhone app should be able to respond to a pulse hike (retrieved from Apple Watch) by sending a text message to "trusted contacts" using the [Twilio](https://www.twilio.com).
 - [ ] The iPhone app should additionally send a PUSH notification to the user in the above case regarding "Trending Media".
