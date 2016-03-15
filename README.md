@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/Soother/Soothe.png?label=ready&title=Ready)](https://waffle.io/Soother/Soothe)
 # Soothe
 **Soothe** is an iOS app that helps take preventative measures by monitoring heart rate.
 
