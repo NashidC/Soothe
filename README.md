@@ -65,6 +65,13 @@ Once we start working on the codebase you should __always be sure to pull/sync f
 
 ### Terminal 
 
+## Wireframes
+
+### Low Fidelity
+
+http://imgur.com/iSjIVRd
+https://wireframe.cc/Oox4GJ
+
 ## Inspiration 
 
 This app is heavily inspired by [Suz Hinton](https://twitter.com/noopkat) and her [Personal Ultimate Reassurance Response (P.U.R.R.)](http://meow.noopkat.com/p-u-r-r-personal-ultimate-reassurance-response/) and by a team member's personal experiences. 
