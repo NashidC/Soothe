@@ -69,7 +69,7 @@ Once we start working on the codebase you should __always be sure to pull/sync f
 
 ### Low Fidelity
 
-http://imgur.com/iSjIVRd
+<img src='http://imgur.com/iSjIVRd.jpg' />
 https://wireframe.cc/Oox4GJ
 
 ## Inspiration 
