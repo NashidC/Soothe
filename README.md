@@ -2,16 +2,6 @@
 **Soothe** is an iOS app that helps take preventative measures by monitoring heart rate.
 :)
 
-## Basic Idea :)
-
-Anxiety and panic attacks can happen anytime and anywhere for absolutely any reason. These attacks can range in intensity and symptoms. Some symptoms include hyperventilation, trembling, sweating, nausea, heart palpitations, etc. Often makes getting through certain situations or even through the day very difficult for sufferers. 
-
-Due to the fact that many people suffering from these attacks might not necessarily be able to do anything about the attack while it's happening, it would be beneficial if another person were aware and could potentially intervine. This is precisely what Soothe wants to enable. Given that panic and anxiety attacks are frequently accompanied by an increasing pulse, we want to use the Apple Watch's Heart Rate Data in order to determine if the User's pulse is consistently rising. If it is, it is likely that the User might experience or is experiencing an attack. When this happens Soothe will send the User's *trusted contacts* a text to notify them of the User's current increase in heart rate and their GPS location if available. This will enable the *trusted contact* to intervine and hopefully support the User by providing awareness.
-
-In addition to this, this app will also have a few simple ways of potentially calming the User. These include a stream of GIFs (based on the User's preference), a stream of motivational/positive quotes, a short burst of videos from the User's Youtube subscription, and potentially small games. Soothe will send a PUSH notification to the phone randomly regarding new media content, but will also send the notification when the User's pulse rises. Since those that have anxiety or panic disorders might also fear their panic attacks, this app seeks to be as subtle as possible, to not inform the user that they might be having an attack.
-
-Although this app wants to help people suffering with anxiety and panic disorder get through the day, this is not a definitive solution and __help should be received from a professional__. Due to the nature of this app, it is possible that it can be beneficial for those suffering from heart-related diseases and any other afflictions that can increase heart rate. 
-
 ## User Stories
 
 The following **required** functionality is completed:
@@ -52,26 +42,6 @@ Here's a walkthrough of implemented user stories:
 <!--<img src='https://github.com/venegu/tweety/raw/master/tweety.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />-->            
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
-
-## Development
-
-This project is currently __not__ open to contributions from non-members as it is a final project for [Codepath University](http://www.codepathuniversity.com). 
-
-For members of Soother; you will need to fork this repo and clone your fork to your machine. Follow the instructions based on the way you use Git.
-
-### Github Desktop
-Please follow [these](https://guides.github.com/activities/forking/) instructions to get started, add a smiley to the README.md and send a pull request to this repo. 
-
-Once we start working on the codebase you should __always be sure to pull/sync from this repository (master) before you start working__. You can find instructions on doing this [here](https://help.github.com/desktop/guides/contributing/syncing-your-branch/). 
-
-### Terminal 
-
-## Wireframes
-
-### Low Fidelity
-
-<img src='http://imgur.com/iSjIVRd.jpg' />
-https://wireframe.cc/Oox4GJ
 
 ## Inspiration 
 
