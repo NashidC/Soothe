@@ -7,12 +7,23 @@
 //
 
 import UIKit
+import Gifu
 
 class GiphyCell: UITableViewCell {
+    
+    @IBOutlet weak var giphyImageView: AnimatableImageView!
+    
+    var gif: Gif! {
+        didSet {
+            giphyImageView.image = nil
+            giphyImageView.animateWithImageData(NSData(contentsOfURL: NSURL(string: gif!.gifUrl!)!)!)
+        }
+    }
 
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+
     }
 
     override func setSelected(selected: Bool, animated: Bool) {
